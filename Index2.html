@@ -1,0 +1,80 @@
+<Empresa: CNC WoodWorks>
+<!-- Página lista para personalizar -->
+<!-- En cuanto me des: nombre del producto, descripción y características, lleno todo -->
+
+<!DOCTYPE html>
+<html class="light" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CNC WoodWorks</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  </head>
+
+  <body class="bg-gray-100 font-display text-gray-900">
+    <header class="sticky top-0 z-50 flex items-center justify-between px-6 py-3 bg-white shadow">
+      <h2 class="text-xl font-bold">CNC WoodWorks</h2>
+      <a href="#contacto" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Cotizar</a>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-5xl mx-auto">
+        <div>
+          <h1 class="text-4xl font-extrabold mb-3">CNC WoodWorks</h1>
+          <p class="text-sm mb-4">Descripción breve del producto. </p>
+
+          <ul class="list-disc ml-4 text-sm space-y-1">
+            <li>Alta precisión y repetibilidad en trabajos de corte y fresado</li>
+<li>Diseño modular compatible con múltiples herramientas</li>
+<li>Estructura rígida y estable para reducir vibraciones</li>
+<li>Diseño CAD/CAM intuitiva para una operación sencilla</li>
+          </ul>
+
+          <p class="mt-6 text-3xl font-bold">$6,031.88 MXN</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-4 shadow">
+          <img 
+            src="https://i.postimg.cc/kMv6ff16/Whats-App-Image-2025-12-01-at-11-56-47-AM-(2).jpg" 
+            class="rounded-lg w-full object-cover" 
+            alt="Imagen del producto" />
+        </div>
+      </section>
+
+      <!-- Planos PDF -->
+      <section class="px-6 py-6 max-w-4xl mx-auto bg-white rounded-xl shadow">
+        <h2 class="text-2xl font-bold mb-3">Planos del CNC (PDF)</h2>
+        <a href="https://drive.google.com/file/d/1GIeDwHzohyh0-b0CIRHXWMb1fqycvXRd/view?usp=sharing" target="_blank" class="text-blue-600 underline text-sm">Ver / Descargar planos en PDF</a>
+      </section>
+
+      <!-- GALERÍA -->
+      <section class="px-6 py-10 max-w-5xl mx-auto">
+        <h2 class="text-2xl font-bold mb-4">Galería</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="https://i.postimg.cc/HxLKRS0L/Whats-App-Image-2025-12-01-at-11-56-47-AM-(1).jpg" class="rounded-lg w-full object-cover" />
+          <img src="https://i.postimg.cc/0yn14Jgf/Whats-App-Image-2025-12-01-at-11-56-47-AM.jpg" class="rounded-lg w-full object-cover" />
+          <img src="https://i.postimg.cc/wj6SDTtQ/Whats-App-Image-2025-12-01-at-11-56-46-AM.jpg" class="rounded-lg w-full object-cover" />
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section id="contacto" class="px-6 py-10 max-w-3xl mx-auto bg-white rounded-xl shadow">
+        <h2 class="text-2xl font-bold mb-3">Solicitar cotización</h2>
+        <form class="grid gap-4">
+          <input placeholder="Nombre completo" class="p-2 border rounded" />
+          <input placeholder="Correo" class="p-2 border rounded" />
+          <input placeholder="Teléfono" class="p-2 border rounded" />
+          <textarea placeholder="Detalles del pedido" class="p-2 border rounded" rows="4"></textarea>
+          <button class="bg-blue-600 text-white px-4 py-2 rounded-lg">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="text-center text-sm text-gray-600 py-4">© 2025 - Página CNC</footer>
+  </body>
+</html>
